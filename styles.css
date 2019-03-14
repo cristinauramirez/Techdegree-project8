@@ -77,10 +77,27 @@ footer {
   height: 120px;
 }
 
+.text {
+  display: none;
+  fill: #eaaa7f;
+}
+
+.logo-text {
+  color: #eaaa7f;
+}
+
 @media (min-width: 425px) {
 
   #container {
     width: 85%;
+  }
+
+  .text {
+    display: initial;
+  }
+
+  .logo-text {
+    display: none;
   }
 
 }
