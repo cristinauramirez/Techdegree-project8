@@ -86,6 +86,37 @@ footer {
   color: #eaaa7f;
 }
 
+/* Corgi Icons */
+#Layer {
+  display: none;
+}
+
+.corgi-icon {
+  display: inline-block;
+  margin: 5px;
+}
+
+.corgi-text {
+  text-align: center;
+  color: #ba8058;
+}
+
+.sable {
+  color: #b97f5b;
+}
+
+.fawn {
+  color: #e9aa82;
+}
+
+.red {
+  color: #834b29;
+}
+
+.stone {
+    color: #52595f;
+}
+
 @media (min-width: 425px) {
 
   #container {
