@@ -25,11 +25,14 @@ p {
 a {
   text-decoration: none;
   color: #39add1;
+  fill: #39add1;
   font-weight: 700;
+  margin-right: 5px;
 }
 
 a:hover {
-  color: #111;
+  color: #ef8f88;
+  fill: #ef8f88;
 }
 
 header {
@@ -39,11 +42,16 @@ header {
 header nav {
   padding-bottom: 50px;
   text-align: left;
+  list-style-type: none;
 }
 
 header nav ul li {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 20px;
+}
+
+li {
+  display: inline-block;
 }
 
 main {
@@ -59,4 +67,9 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+/* Navigation */
+.nav-icon {
+  margin-right: 5px;
 }
