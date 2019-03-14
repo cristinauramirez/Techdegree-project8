@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   color: #111;
   background: #edeff0;
+  background-image: url('svgs/background.svg');
 }
 
 #container {
@@ -43,11 +44,7 @@ header nav {
   padding-bottom: 50px;
   text-align: left;
   list-style-type: none;
-}
-
-header nav ul li {
-  /* display: inline-block; */
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 li {
@@ -72,4 +69,12 @@ footer {
 /* Navigation */
 .nav-icon {
   margin-right: 5px;
+}
+
+@media (min-width: 425px) {
+
+  #container {
+    width: 85%;
+  }
+
 }
